@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { NavigationContainer, DarkTheme } from '@react-navigation/native';
+import { NavigationContainer, DarkTheme, DefaultTheme } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Ionicons, AntDesign, Feather  } from '@expo/vector-icons';
 import Box from './Telas/Box';

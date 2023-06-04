@@ -47,6 +47,19 @@ const AppStyles = StyleSheet.create({
     color: 'red',
     padding: 20
   },
+  backgroundBase: {
+    padding: 2,
+    flex: 1,
+    backgroundColor: 'gray',
+  },
+  listaTexto: {
+    color: 'red',
+  },
+  btnBase: {
+    padding: 3, 
+
+  }
+  
   
 });
 
