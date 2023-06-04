@@ -7,7 +7,7 @@ export default function Base() {
 
   return (
     <View>
-      <Text style={css.heading}>Lista de Valores Calculados:</Text>    
+      <Text style={css.heading}>Lista de Valores Calculados:</Text> 
     </View>
   );
 }
