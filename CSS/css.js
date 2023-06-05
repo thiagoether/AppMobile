@@ -69,7 +69,8 @@ const AppStyles = StyleSheet.create({
   },
   btn: {
     color: 'red',
-  }
+  },
+  
   
   
 });

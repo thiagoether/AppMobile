@@ -71,7 +71,7 @@ export default function Base() {
   );
 
   return (
-    <View style={css.backgroundBase}>      
+    <View style={css.backgroundBase}>     
       <TextInput
         style={css.input}
         keyboardType="numeric"
