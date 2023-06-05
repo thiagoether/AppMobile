@@ -50,14 +50,25 @@ const AppStyles = StyleSheet.create({
   backgroundBase: {
     padding: 2,
     flex: 1,
-    backgroundColor: 'gray',
+    backgroundColor: 'black',
   },
   listaTexto: {
-    color: 'red',
+    color: 'gray',
+    fontSize: 17
   },
   btnBase: {
-    padding: 3, 
+    padding: 20,   
 
+  },
+  itemText: {
+    color: 'white',
+    fontSize: 25
+  },
+  itemContainer: {
+    color: 'red'
+  },
+  btn: {
+    color: 'red',
   }
   
   

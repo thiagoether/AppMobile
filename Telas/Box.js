@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import { View, Text, TouchableOpacity, Image, ScrollView, TextInput } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 import { MaterialIcons } from '@expo/vector-icons';
 import css from '../CSS/css';
 
@@ -20,8 +21,7 @@ export default function Box() {
     const volumeCaixaTrapezoidal = ((baseMaiorNum + baseMenorNum) * alturaNum * comprimentoNum) / 2;
     // Atualização do estado com o valor do volume
     setVolume(volumeCaixaTrapezoidal.toFixed(2));
-    //Enviar informações para outra tela
-    
+    //Enviar informações para outra tela   
 
   
   }; 
@@ -64,8 +64,7 @@ export default function Box() {
           <Text style={css.buttonText}>Calcular Volume</Text>
           <MaterialIcons name="calculate" size={24} color="white" />
         </TouchableOpacity>
-        <Text style={css.result}>Volume: {volume / 1000} Litros</Text>
-        
+        <Text style={css.result}>Volume: {volume / 1000} Litros</Text>        
         
       </View>
     </ScrollView>
